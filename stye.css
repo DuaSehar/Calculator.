@@ -1,0 +1,83 @@
+ body{
+    background-image: url('https://img.freepik.com/free-photo/numerology-concept-composition_23-2150169791.jpg');
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-right: 350px;
+    padding-left: 350px;
+    align-items: center;
+    height: 120vh;
+    background-color: rgb(206, 206, 197);
+}
+ /* #heading {
+
+    margin: 0;
+    margin-bottom: 800px;
+    padding-left: 300px; ;
+    text-align: center; 
+    font-size:40px ;
+    color: rgb(255, 38, 0);
+}  */
+#calculator{
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 253, 253);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+
+    width: 100%;
+    padding:  20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color:rgb(11, 11, 11);
+    color: white;
+}
+#keys {
+
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(61, 75, 75);
+    color: rgb(254, 246, 246);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(58, 58, 59);
+}
+button:active{
+    background-color: rgb(18, 17, 17) ;
+}
+.operator.BTN {
+    background-color:rgb(10, 10, 10)
+
+}
+
+.operator.BTN:hover {
+    background-color: hsl(60, 1%, 27%);
+
+}
+.operator.BTN:active {
+    background-color: hsl(0, 0%, 4%);
+
+}
+
+
+
+
+
+
